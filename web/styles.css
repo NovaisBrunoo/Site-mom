@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    ;
+
 }
 
 
@@ -15,16 +15,36 @@ header {
     height: 50px;
 }
 
-ul.Menu {
+.Menu {
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
-    margin-top: 15px;
+    margin-top: 10px;
+    color: #ffffff;
+    align-content: center;
+
 }
 
-.Menu a {
-    color: #ffffff;
-    margin-right: 15px;
+.Menu li {
+    margin-right: 50px;
+}
+
+.img_top {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    width: 20px;
+    height: 20px;
+}
+
+.img_top #whatsapp {
+    margin-right: 135px;
+    width: 30px;
+}
+
+.img_top #insta {
+    margin-right: 185px;
+    width: 30px;
 }
 
 .logo_top {
@@ -61,7 +81,59 @@ ul.Menu {
     font-style: italic;
     font-size: 18px;
     border: none;
-    height: 32px;
+    height: 40px;
     width: 800px;
     border-radius: 15px;
+}
+
+
+
+.contener {
+    display: flex;
+    background-color: #C2E8EC;
+    border-radius: 20px;
+    flex-direction: column;
+    height: 1200px;
+    width: 200px;
+    border: 2px solid #757575;
+    justify-content: center;
+
+
+
+}
+
+.menu_esquerda {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 25px;
+    flex-wrap: wrap;
+
+}
+
+.menu_esquerda ul li {
+    list-style: none;
+    margin-bottom: 100px;
+    padding: 5px;
+    display: block;
+
+}
+
+.menu_esquerda a {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.menu_esquerda li a:hover {
+    background-color: #757575;
+    border: 1px solid #000000;
+}
+
+.itens_vendas {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-end;
+    margin-left: 10px;
+    padding: 50px;
 }
